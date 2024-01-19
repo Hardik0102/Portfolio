@@ -209,22 +209,26 @@ h1{
 
     display: flex;
     justify-content: space-between;
-    
-    margin: 40px;
+    padding-top: 20px;
+    margin: 2px;
     gap: 10px;
+    background-color:#f6f6f6;
 
 }
 .Idea{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
 
 }
 .Skill{
     display: flex;
     flex-direction: column;
-    padding: 5px;
-
+    justify-content: center;
+    align-items: center;
+    padding: 5px; 
 }
 .imgHed{
     color: #3d626c;
@@ -254,13 +258,13 @@ h1{
         margin: 0px;
     }
 }
-
-
 .Imag1 {
     width: 538px; 
-    height: 358.44px; 
+    height: 358.44px;
+    padding-left: 19px; 
  }
  .Imag {
+    padding-left: 10px;
     width: 538px; 
     height: 358.44px; 
  }
@@ -289,3 +293,66 @@ h1{
           height: 248.48px; 
       }
      }
+
+.fifth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 20px;
+    
+}
+.myex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+ #exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3d626c;
+    font-size: 51px;
+    font-family: serif ;
+
+ } 
+ .prog{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+ } 
+ .exhead{
+    font-size: 23px;
+    color: #3d626c;
+    text-align: left;
+ }
+ .progressbar{
+    width: 340px;
+    height: 5px;
+    background-color: rgb(64, 86, 64);
+    
+ }
+ @media (max-width:1030px) {
+    .fifth{
+        justify-content: center;
+        text-align: center;
+        font-size: 70%;
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
+}
+@media (max-width:990px) {
+    .fifth{
+        text-align: center;
+        font-size: 50%;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+}
+
