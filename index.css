@@ -355,4 +355,153 @@ h1{
         margin: 0px;
     }
 }
+.sixth{
 
+    display: flex;
+    flex-direction: row;
+    background-color:#f6f6f6;
+    padding: 10px;
+    margin: 10px;
+
+}
+.tie{
+
+    width: 656.99px;
+    height: 437.72px;
+    padding: 20px;
+}
+.Aboutme{
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+#me{
+  text-align: center;
+  font-family: serif;
+  font-size: 40px;
+  color: #3d626c;
+
+}
+
+#aboutpara{
+    text-align: center;
+    font-family:serif;
+    font-size: 20px;
+    color: #869a9fea;
+
+}
+.Contactinfo{
+
+    color: #3d626c;
+    font-size: large;
+    line-height: 2.5;
+
+}
+
+@media (max-width:1030px) {
+    .sixth{
+        justify-content: center;
+        text-align: center;
+        /* flex-wrap: wrap; */
+        padding: 10px;
+       
+
+    }
+}
+@media (max-width:990px) {
+    .sixth{
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+}
+
+@media (max-width:1030px) {
+    .tie{
+        width: 549px;
+        height: 365px;
+    }
+}
+@media (max-width:990px) {
+    .tie{
+        width: 355px;
+        height: 269px ;
+    }
+
+}
+@media (max-width:1030px) {
+    #me{
+        size: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.seventh{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.art{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.articon{
+    display: flex;
+    flex-direction: row;
+}
+#arth{
+    text-align: center;
+    color: #3d626c;
+    font-size: 45px;
+    margin-bottom: 0px;
+
+}
+#artp{
+    color: #869a9fea;
+    font-size: 19px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+@media (max-width:1030px) {
+    .seventh{
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
+@media (max-width:990px) {
+    .seventh{
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        
+    }
+}
+@media (max-width:1030px) {
+    .articon{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
+@media (max-width:990px) {
+    .articon{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
