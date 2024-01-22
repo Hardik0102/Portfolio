@@ -505,3 +505,14 @@ h1{
         padding: 10px;
     }
 }
+
+.eighth{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    text-align: center;
+    color: #3d626c;
+}
+
